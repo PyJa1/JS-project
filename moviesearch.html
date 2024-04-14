@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Search</title>
+    <link rel="stylesheet" href="moviesearch.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Search for a movie</h1>
+      <div class="search-container">
+        <input
+          type="text"
+          id="searchInput"
+          class="search-input"
+          placeholder="Enter movie title" />
+        <button onclick="searchMovies()" class="search-button">Search</button>
+      </div>
+      <div id="results" class="results"></div>
+    </div>
+
+    <script src="moviesearch.js"></script>
+  </body>
+</html>
